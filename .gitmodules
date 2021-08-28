@@ -4,3 +4,6 @@
 [submodule "docs/revealjs-menu"]
 	path = docs/revealjs-menu
 	url = https://github.com/denehyg/reveal.js-menu.git
+[submodule "docs/revealjs-fsfx"]
+	path = docs/revealjs-fsfx
+	url = https://github.com/Martinomagnifico/reveal.js-fsfx.git

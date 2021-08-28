@@ -16,7 +16,8 @@
 </head>
 
 <body>
-	<div class="reveal">
+	<div class="reveal" data-fs-toggle="fullscreen">
+        <button class="fsbutton icon-fs" style="position: absolute; right: 20px; top: 20px; z-index: 2;" data-fs-toggle="icon-fsexit"></button>
 		<div class="slides">
 			<section>Slide 1</section>
 			<!-- Example of nested vertical slides -->
@@ -128,6 +129,13 @@
 
 	</script>
     <script src="revealjs-menu/menu.js">
+
+    </script>
+    <!-- FsFx.js needs one other script to be able to function: Screenfull.js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/screenfull@5.1.0/dist/screenfull.min.js">
+
+    </script>
+    <script type="text/javascript" src="/revealjs-fsfx/plugin/fsfx/fsfx.js">
 
     </script>
 	<script src='js/main.js'>

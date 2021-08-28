@@ -14,6 +14,10 @@ Reveal.initialize({
             }
         ]
     },
+    fsfx: {
+        baseclass: "fsbutton",
+        hideifnofs: true
+    },
     // Learn about plugins: https://revealjs.com/plugins/
     plugins: [
         RevealZoom,
@@ -21,6 +25,7 @@ Reveal.initialize({
         RevealSearch,
         RevealMarkdown,
         RevealHighlight,
-        RevealMenu
+        RevealMenu,
+        FsFx
     ]
 });
